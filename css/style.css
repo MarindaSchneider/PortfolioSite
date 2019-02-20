@@ -1,50 +1,4 @@
- ---------------------------------------
-
-Template Name: Prema
-Description: Responsive HTML5 / CSS3 OnePage Portfolio-Resume Template
-Version: 1.0
-Author: Ahmed Beheiry
-
-Used Fonts : Raleway & Open Sans ( Google free fonts ).
-
-=>  Table of Content  <=
-
-( 1 ) Import Google Fonts
-( 2 ) Main Rules
-	2-a - Typography
-	2-b - Helping Classes
-	2-c - Typed Cursor
-	2-d - Buttons Styles
-( 3 ) Loading Page
-( 4 ) Color-Box Switch
-( 5 ) Home Section
-	5-a - Backgrounds
-	5-b - NavBar
-	5-c - Content
-	5-d - Typed text home
-	5-e - FullSize Slider Hero
-	5-f - Fade Slider Hero
-	5-g - Go down arrow
-( 6 ) About Section
-( 7 ) Ready Section
-( 8 ) Process Section 
-( 9 ) Fun Facts Section
-( 10 ) Services Section
-( 11 ) Quote Section
-( 12 ) Experiences Section
-( 13 ) Skills Section
-( 14 ) Portfolio Section
-( 15 ) Testimonials Section
-( 16 ) Clients Section
-( 17 ) Contact Section
-( 18 ) Google Map Section
-( 19 ) Footer Section
-( 20 ) To Top Button
-( 21 ) Media Queries
  
------------------------------------------ */
-
-
 /* ---------------------------------------
 	( 1 ) Import Google Fonts
  ---------------------------------------*/
@@ -92,7 +46,7 @@ p.para {
 	left: 0;
 	right: 0;
 	z-index: 0;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.6);
 }
 .separator {
 	position: relative;
@@ -182,12 +136,12 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	width: 50px;
 	height: 50px;
 	margin: auto;
-	background: #f7465b;
+	background: #38C8BD;
 	-webkit-animation: rotateRec 1.5s infinite ease-in-out;
 			animation: rotateRec 1.5s infinite ease-in-out;
 }
 .loading .loading-wrapper h4 {
-	color: #f7465b;
+	color: #38C8BD;
 	letter-spacing: 6px;
 	margin-top: 30px;
 }
@@ -297,15 +251,15 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 #home {
 	background-color: #333;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top;
 	background-size: cover;
 	position: relative;
 }
-#home.main {background-image: url("../img/bg3.jpg");}
-#home.bg-2 {background-image: url("../img/bg3.jpg");}
-#home.bg-3 {background-image: url("../img/bg3.jpg");}
+#home.main {background-image: url("../img/bg1.jpg");}
+#home.bg-2 {background-image: url("../img/bg1.jpg");}
+#home.bg-3 {background-image: url("../img/bg1.jpg");}
 #home.parallax {
-	background-image: url("../img/bg3.jpg");
+	background-image: url("../img/bg1.jpg");
 	background-attachment: fixed;
 }
 
@@ -449,11 +403,11 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	outline: none;
 }
 .fs-slider-hero .slider .slide-one {
-	background: url("../img/bg3.jpg");
+	background: url("../img/bg1.jpg");
 	background-size: cover;
 }
 .fs-slider-hero .slider .slide-two {
-	background: url("../img/bg3.jpg");
+	background: url("../img/bg1.jpg");
 	background-size: cover;
 }
 .fs-slider-hero .slider .slide-two .hero-content-wrapper .hero-content h1 {
@@ -463,7 +417,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	margin-top: 30px;
 }
 .fs-slider-hero .slider .slide-three {
-	background: url("../img/bg3.jpg");
+	background: url("../img/bg1.jpg");
 	background-size: cover;
 }
 .fs-slider-hero .slider .slide-three .hero-content-wrapper .hero-content h1 {
@@ -509,9 +463,9 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	background-size: cover;
 	background-position: center;
 }
-.fade-slider .slider .slide-one {background-image: url("../img/bg3.jpg");}
-.fade-slider .slider .slide-two {background-image: url("../img/bg3.jpg");}
-.fade-slider .slider .slide-three {background-image: url("../img/bg3.jpg");}
+.fade-slider .slider .slide-one {background-image: url("../img/bg1.jpg");}
+.fade-slider .slider .slide-two {background-image: url("../img/bg1.jpg");}
+.fade-slider .slider .slide-three {background-image: url("../img/bg1.jpg");}
 
 /*** 5-g - Go down arrow ***/
 #home .go-down {
@@ -639,7 +593,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
     ( 9 ) Start Fun Facts Section
 * ------------------------------------- */
 #fun-facts {
-	background: #333 url("../img/bg3.jpg");
+	background: #333 url("../img/bg1.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -709,7 +663,10 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
     		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
 }
-#services .service h4 {margin-bottom: 15px;}
+#services .service h4 {
+	margin-bottom: 15px;
+	color: #fff;
+}
 #services .service:hover i {color: #fff;}
 #services .service:hover i:after {
 	opacity: 1;
@@ -719,7 +676,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 }
 
 #services {
-	background: #333 url("../img/bg3.jpg");
+	background: #333 url("../img/bg1.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -915,7 +872,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
     ( 15 ) Start Testimonials Section
 * ------------------------------------- */
 #testimonials {
-	background: #333 url("../img/bg3.jpg");
+	background: #333 url("../img/bg1.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1009,7 +966,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
     ( 17 ) Start Contact Section
 * ------------------------------------- */
 #contact {
-	background: #333 url("../img/bg3.jpg");
+	background: #333 url("../img/bg1.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
