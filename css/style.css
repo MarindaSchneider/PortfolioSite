@@ -1,4 +1,4 @@
- 
+  
 /* ---------------------------------------
 	( 1 ) Import Google Fonts
  ---------------------------------------*/
@@ -739,7 +739,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 #experiences .timeline .event .event-left i {
 	position: absolute;
 	z-index: 1;
-	right: -16px;
+	right: -14px;
 	top: 7px;
 	display: inline-block;
 	font-size: 25px;
