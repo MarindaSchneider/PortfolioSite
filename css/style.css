@@ -1,4 +1,4 @@
-  
+ 
 /* ---------------------------------------
 	( 1 ) Import Google Fonts
  ---------------------------------------*/
@@ -136,12 +136,12 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	width: 50px;
 	height: 50px;
 	margin: auto;
-	background: #38C8BD;
+	background: #8D72E1;
 	-webkit-animation: rotateRec 1.5s infinite ease-in-out;
 			animation: rotateRec 1.5s infinite ease-in-out;
 }
 .loading .loading-wrapper h4 {
-	color: #38C8BD;
+	color: #8D72E1;
 	letter-spacing: 6px;
 	margin-top: 30px;
 }
