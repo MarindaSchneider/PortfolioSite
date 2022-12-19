@@ -64,7 +64,7 @@
 
 /* -------------------------------------
               Media Queries
-* ------------------------------------- */
+* -------------------------------------  */
 @media (max-width: 991px) { 
 	/* Adjusting the navbar */
 	#home .navbar .nav .active a, #home .navbar .navbar-brand {color: #8D72E1;}
