@@ -1,4 +1,4 @@
- 
+  
 /* ---------------------------------------
 	( 1 ) Import Google Fonts
  ---------------------------------------*/
@@ -28,7 +28,7 @@ p.para {
 	font-weight: 300;
 	line-height: 24px;
 	letter-spacing: 1px;
-	color: #474747;
+	color: #313131;
 }
 ::-moz-selection {color: #fff;}
 ::selection {color: #fff;}
@@ -229,7 +229,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 .color-switcher .map-styles {padding: 0;}
 .color-switcher .map-styles li a {
 	display: block;
-	color: #555;
+	color: #313131;
 	text-align: left;
 	padding: 15px 0 15px 20px;
 	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
@@ -545,8 +545,8 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 #about .profile {margin-bottom: 40px;}
 #about .profile .separator {margin: 20px auto;}
 #about .profile p {font-size: 1.1em;}
-#about .profile span.highlight {color: #555; font-weight: 400;}
-#about .profile a {color: #474747;}
+#about .profile span.highlight {color: #313131; font-weight: 400;}
+#about .profile a {color: #313131;}
 
 /*** start tabs ***/
 #about .info-tabs {margin-bottom: 40px;}
@@ -791,7 +791,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	border-bottom: 10px solid transparent;
 }
 #experiences .timeline .event .event-right h4 {margin-bottom: 0;}
-#experiences .timeline .event .event-right p.job-title {color: #777;}
+#experiences .timeline .event .event-right p.job-title {color: #313131;}
 
 /* End Experiences Section */
 
@@ -858,7 +858,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 }
 #portfolio .modal-header h4 {line-height: 38px;}
 #portfolio .modal-header button.close {
-	border: 1px solid #555;
+	border: 1px solid #313131;
 	width: 40px;
 	height: 40px;
 	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
@@ -868,7 +868,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 #portfolio .modal-body h4, #portfolio .modal-body p {text-align: left;}
 #portfolio .modal-body p.project-description {margin-top: 20px;}
 #portfolio .modal-body p.subtitle {
-	color: #555;
+	color: #313131;
     text-transform: uppercase;
     font-size: 0.8em;
 }
@@ -1081,7 +1081,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	width: 50px;
 	height: 50px;
 	text-align: center;
-	background: #555;
+	background: #313131;
 	overflow: hidden;
 	-webkit-transition: background 0.2s cubic-bezier(0.68, -0.07, 0.25, 0.93);
 			transition: background 0.2s cubic-bezier(0.68, -0.07, 0.25, 0.93);
