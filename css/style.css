@@ -295,7 +295,7 @@ a, a:active, a:focus {outline: 0 !important; text-decoration: none !important;}
 	padding-bottom: 30px;
 	text-transform: capitalize;
 	font-weight: 400;
-	color: #474747;
+	color: #fff;
 	-webkit-transition: all 0.4s ease-in-out;
     		transition: all 0.4s ease-in-out;
 }
